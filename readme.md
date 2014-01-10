@@ -1,3 +1,18 @@
+# Papagayo
+
+![Logo](http://www.lostmarble.com/papagayo/img/papagayo_logo.gif)
+
+[Papagayo](http://www.lostmarble.com/papagayo/) is a lip-syncing program designed to help you line up phonemes (mouth shapes) with the actual recorded sound of actors speaking. Papagayo makes it easy to lip sync animated characters by making the process very simple - just type in the words being spoken (or copy/paste them from the animation's script), then drag the words on top of the sound's waveform until they line up with the proper sounds.
+
+![Screenshot](http://www.lostmarble.com/papagayo/img/screen1.jpg)
+
+After syncing up mouth shapes with actual sounds, Papagayo can then export the result for use with [Anime Studio](http://www.e-frontier.com/go/LManime).
+
+Papagayo is free to download and use. Sync 'till your virtual lips are sore! Papagayo is available for Windows, Mac OS X, and Linux.
+
+
+## Usage
+
 To work with the Papagayo source code, you need some special software installed. This software is not necessary to run the installer-based version of Papagayo, but you do need it if you want to use this source code package.
 
 Python - the programming language that Papagayo is written in.
@@ -54,8 +69,11 @@ To add breakdowns for other languages, look in the LipsyncDoc.py file. Search fo
 
 Papagayo now only works with Moho, but support could be added for other animation software, 2D or 3D. To add support for other export formats, look in the LipsyncDoc.py file for the function LipsyncVoice:Export - this is where Papagayo exports switch data for Moho. You will also need to modify the file LipsyncFrame.py to add a user interface for exporting the new format.
 
------------------------------
+
+## Credits
+
+Released under the GPL (GNU General Public License)
 
 Copyright (C) 2005 Mike Clifton
-Contact:
-http://www.lostmarble.com
+
+Contact: http://www.lostmarble.com
